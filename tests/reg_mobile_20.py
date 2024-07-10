@@ -11,7 +11,7 @@ from page_objects.home.home_page import HomePage
 
 # Login using valid ID/password
 
-class TestLoginValid(unittest.TestCase):
+class TestLoginValidinTwoDifferentDevices(unittest.TestCase):
     def setUp(self):
         self.device_lock = threading.Lock()
 
